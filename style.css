@@ -50,6 +50,8 @@ html,
 body {
   max-width: 100%;
   overflow-x: hidden;
+  max-width: 1356px;
+  margin-inline: auto;
 }
 
 /* Set core root defaults */
@@ -109,6 +111,26 @@ select {
   overflow: hidden;
   white-space: nowrap;
   border: 0;
+}
+
+.button-left {
+  position: absolute;
+  cursor: pointer;
+  padding: 10px;
+  background-color: var(--clr-neutral-900);
+  bottom: 0;
+  right: 2.2rem;
+  padding-inline: 1.35rem;
+}
+
+.button-right {
+  position: absolute;
+  cursor: pointer;
+  padding: 10px;
+  background-color: var(--clr-neutral-900);
+  bottom: 0;
+  right: -21px;
+  padding-inline: 1.35rem;
 }
 
 @media screen and (min-width: 1024px) {
@@ -189,26 +211,6 @@ select {
   .middle {
     align-self: center;
     padding-inline: var(--size-700);
-  }
-
-  .button-left {
-    position: absolute;
-    cursor: pointer;
-    padding: 10px;
-    background-color: var(--clr-neutral-900);
-    bottom: 0;
-    right: 2.2rem;
-    padding-inline: 1.35rem;
-  }
-
-  .button-right {
-    position: absolute;
-    cursor: pointer;
-    padding: 10px;
-    background-color: var(--clr-neutral-900);
-    bottom: 0;
-    right: -22px;
-    padding-inline: 1.35rem;
   }
 
   .button-left:hover,
@@ -328,6 +330,10 @@ select {
     position: relative;
     transform: translateX(-21px);
   }
+
+  .button-right {
+    right: -22px;
+  }
 }
 
 .nav-list li a {
@@ -356,28 +362,8 @@ select {
   gap: var(--size-600);
 }
 
-.button-left {
-  position: absolute;
-  cursor: pointer;
-  padding: 10px;
-  background-color: var(--clr-neutral-900);
-  bottom: 0;
-  right: 2.2rem;
-  padding-inline: 1.35rem;
-}
-
-.button-right {
-  position: absolute;
-  cursor: pointer;
-  padding: 10px;
-  background-color: var(--clr-neutral-900);
-  bottom: 0;
-  right: -22px;
-  padding-inline: 1.35rem;
-}
-
 .title {
-  font-size: clamp(1.75rem, 3vw, 7rem);
+  font-size: clamp(1.75rem, 3vw, var(--size-900));
   line-height: 1;
   font-weight: var(--fw-bold);
 }
