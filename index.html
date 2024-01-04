@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/images/favicon-32x32.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Room Landing Page</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/35dda91b59.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <header class="primary-header">
+      <div class="nav-wrapper">
+        <a href="#" class="logo"><img src="images/logo.svg" alt="Room" /></a>
+        <button
+          class="mobile-nav-toggle"
+          aria-controls="primary-navigation"
+          aria-expanded="false"
+        >
+          <img
+            class="icon-hamburger"
+            src="./images/icon-hamburger.svg"
+            aria-hidden="true"
+            alt="Hamburger icon"
+          />
+          <img
+            class="icon-close"
+            src="./images/icon-close.svg"
+            aria-hidden="true"
+            alt="Close icon"
+          />
+          <span class="visually-hidden">Menu</span>
+        </button>
+        <nav class="primary-navigation" id="primary-navigation">
+          <ul aria-label="Primary" role="list" class="nav-list">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Shop</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <section class="first-grid-section">
+        <div class="left-side">
+          <div class="images">
+            <img
+              class="top-image content-image"
+              src="/images/mobile-image-hero-1.jpg"
+              data-src-mobile="/images/mobile-image-hero-1.jpg"
+              data-src-desktop="/images/desktop-image-hero-1.jpg"
+              alt="Chair with table and plant"
+            />
+            <img
+              class="top-image content-image"
+              src="/images/mobile-image-hero-2.jpg"
+              data-src-mobile="/images/mobile-image-hero-2.jpg"
+              data-src-desktop="/images/desktop-image-hero-2.jpg"
+              alt="Chairs"
+            />
+            <img
+              class="top-image content-image"
+              src="/images/mobile-image-hero-3.jpg"
+              data-src-mobile="/images/mobile-image-hero-3.jpg"
+              data-src-desktop="/images/desktop-image-hero-3.jpg"
+              alt="One black chair"
+            />
+          </div>
+
+          <div class="buttons">
+            <div class="button-left">
+              <img src="/images/icon-angle-left.svg" alt="Left angle" />
+            </div>
+            <div class="button-right">
+              <img src="/images/icon-angle-right.svg" alt="Right angle" />
+            </div>
+          </div>
+        </div>
+        <div class="right-side">
+          <h2 class="title">Discover innovative ways to decorate</h2>
+          <p class="subtitle">
+            We provide unmatched quality, comfort, and style for property owners
+            across the country. Our experts combine form and function in
+            bringing your vision to life. Create a room in your own style with
+            our collection and make your property a reflection of you and what
+            you love.
+          </p>
+          <div class="arrow">
+            <a href="#"
+              >Shop Now
+              <span class="right-arrow"
+                ><img src="/images/icon-arrow.svg" alt="Right arrow" /></span
+            ></a>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="three-columns">
+          <div class="dark-image">
+            <img
+              src="/images/image-about-dark.jpg"
+              alt="Dark image with black chairs and table"
+            />
+          </div>
+          <div class="middle">
+            <h2 class="second-title">About our furniture</h2>
+            <p class="subtitle">
+              Our multifunctional collection blends design and function to suit
+              your individual taste. Make each room unique, or pick a cohesive
+              theme that best express your interests and what inspires you. Find
+              the furniture pieces you need, from traditional to contemporary
+              styles or anything in between. Product specialists are available
+              to help you create your dream space.
+            </p>
+          </div>
+          <div class="light-image">
+            <img
+              src="/images/image-about-light.jpg"
+              alt="Light image with white chair"
+            />
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by
+      <a href="https://www.linkedin.com/in/adrian-nasrat/" target="_blank"
+        >Ali Adrian Nasrat</a
+      >.
+    </div>
+
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
