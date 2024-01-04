@@ -363,7 +363,7 @@ select {
 }
 
 .title {
-  font-size: clamp(1.75rem, 3vw, var(--size-900));
+  font-size: clamp(1.75rem, 3vw, var(--size-700));
   line-height: 1;
   font-weight: var(--fw-bold);
 }
