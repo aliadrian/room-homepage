@@ -26,7 +26,8 @@
 
 </div>
 
-This is a solution to the [Room homepage]((https://www.frontendmentor.io/challenges/room-homepage-BtdBY_ENq). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
+This is a solution to the [Room homepage] https://www.frontendmentor.io/challenges/room-homepage-BtdBY_ENq. <br>
+Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
 <h2>Links</h2>
 
